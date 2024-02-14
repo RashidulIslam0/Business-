@@ -4,12 +4,7 @@ import "./footer.css";
 function Footer() {
   return (
     <>
-      <div class="content">
-        <div className="container">
-          <div className="single-content">
-            <h1>Website Content</h1>
-          </div>
-        </div>
+      <div className="content">
         <footer>
           <div className="container">
             <div className="row">

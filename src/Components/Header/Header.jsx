@@ -62,7 +62,7 @@ function Header() {
             </div>
           </div>
           <a href="" className="Login-button">
-            Book Discovery Call
+            Book Call
           </a>
           <button
             className="navbar-toggler"
