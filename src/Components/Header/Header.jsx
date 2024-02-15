@@ -7,9 +7,6 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg  fixed-top">
         <div className="container-fluid">
-          {/* <a class="navbar-brand me-auto" href="#">
-            LOGO
-          </a> */}
           <Link to="/">
             <img
               class="navbar-brand me-auto"
