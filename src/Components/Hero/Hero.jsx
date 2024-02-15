@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./hero.css";
+import { Link } from "react-router-dom";
 function Hero() {
   const [name, setName] = useState("");
   const [countryCode, setCountryCode] = useState("");
@@ -24,12 +25,13 @@ function Hero() {
                 plugins.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <button
+                <Link
+                  to="/book"
                   type="button"
                   className="btn btn-primary bsb-btn-xl rounded-pill"
                 >
                   Book A Call
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-12 col-lg-5">

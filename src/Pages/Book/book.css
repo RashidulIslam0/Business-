@@ -1,0 +1,43 @@
+/* book.css */
+
+/* Styles for the container div */
+.Book {
+  /* max-width: 400px; */
+
+  margin: 0 auto;
+}
+
+/* Styles for the Calendly inline widget */
+.calendly-inline-widget {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Styles for the heading inside the Calendly widget */
+.calendly-inline-widget h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Styles for the buttons inside the Calendly widget */
+.calendly-inline-widget button {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(107, 39, 196) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for the buttons */
+.calendly-inline-widget button:hover {
+  background-color: #0056b3;
+}

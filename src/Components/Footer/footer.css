@@ -42,7 +42,12 @@ footer {
   font-weight: 700;
 }
 #basic-addon2 {
-  background: #fe1e4f;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(107, 39, 196) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   color: #fff;
 }
 .socials i {

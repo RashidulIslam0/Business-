@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -9,11 +10,13 @@ function Header() {
           {/* <a class="navbar-brand me-auto" href="#">
             LOGO
           </a> */}
-          <img
-            class="navbar-brand me-auto"
-            src="https://img.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg?w=740&t=st=1707899051~exp=1707899651~hmac=62e2e12e78ebaaa7fdfbfc7764bc8144591a3c1b5399cd7b00d3bcf7b96028be"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              class="navbar-brand me-auto"
+              src="https://img.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg?w=740&t=st=1707899051~exp=1707899651~hmac=62e2e12e78ebaaa7fdfbfc7764bc8144591a3c1b5399cd7b00d3bcf7b96028be"
+              alt=""
+            />
+          </Link>
           <div
             className="offcanvas offcanvas-end"
             tabIndex={-1}
@@ -61,9 +64,9 @@ function Header() {
               </ul>
             </div>
           </div>
-          <a href="" className="Login-button">
+          <Link to="/book" className="Login-button">
             Book Call
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
