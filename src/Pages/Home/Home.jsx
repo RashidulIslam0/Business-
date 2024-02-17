@@ -1,6 +1,9 @@
 import React from "react";
 import Hero from "../../Components/Hero/Hero";
 import Card from "../../Components/Card/Card";
+import Services from "../../Components/Services/Services";
+import VideoSection from "../../Components/Video/Video";
+import Videoall from "../../Components/Video/Videoall";
 
 function Home() {
   return (
@@ -39,6 +42,10 @@ function Home() {
           </div>
         </section>
       </div>
+      <Services />
+      {/* <VideoSection /> */}
+
+      <Videoall />
     </div>
   );
 }
