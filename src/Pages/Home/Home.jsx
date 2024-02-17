@@ -9,6 +9,11 @@ function Home() {
   return (
     <div>
       <Hero />
+
+      <Services />
+
+      <Videoall />
+
       <div className="">
         <section id="team">
           <div className="container">
@@ -42,10 +47,6 @@ function Home() {
           </div>
         </section>
       </div>
-      <Services />
-      {/* <VideoSection /> */}
-
-      <Videoall />
     </div>
   );
 }

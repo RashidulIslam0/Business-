@@ -40,6 +40,45 @@ function VideoSection() {
                   </div>
                 </div>
                 <div className="col-md-12 col-sm-12">
+                  <div className="video-right">
+                    <div className="badges d-flex align-items-center ps-3 mt-2">
+                      <img
+                        className="imgas me-3"
+                        src="https://winstarit.com/wp-content/uploads/2022/06/on-time.png"
+                        alt=""
+                        style={{ width: "24px" }} // Adjust image width
+                      />
+                      <p className="mb-0">Dedicated account manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-12 col-sm-12">
+                  <div className="video-right">
+                    <div className="badges d-flex align-items-center ps-3 mt-2">
+                      <img
+                        className="imgas me-3"
+                        src="https://winstarit.com/wp-content/uploads/2022/06/on-time.png"
+                        alt=""
+                        style={{ width: "24px" }} // Adjust image width
+                      />
+                      <p className="mb-0">Dedicated account manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-12 col-sm-12">
+                  <div className="video-right">
+                    <div className="badges d-flex align-items-center ps-3 mt-2">
+                      <img
+                        className="imgas me-3"
+                        src="https://winstarit.com/wp-content/uploads/2022/06/on-time.png"
+                        alt=""
+                        style={{ width: "24px" }} // Adjust image width
+                      />
+                      <p className="mb-0">Dedicated account manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-12 col-sm-12">
                   <div className="video-right  mb-4">
                     <div className="badges d-flex align-items-center ps-3 mt-2">
                       <img
