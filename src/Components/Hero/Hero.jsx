@@ -13,38 +13,41 @@ function Hero() {
 
   return (
     <>
-      <section className="hero m-lg-5 p-5">
+      <section className="hero m-lg-5 ">
         <div className="container overflow-hidden">
           <div className="row  align-items-lg-center justify-content-lg-between">
-            <div className="col-12 col-lg-6 pt-5  ">
-              <h2 className="display-3 fw-bold mb-3">Art of Design</h2>
-              <p className="fs-4 mb-5">
-                Powerful, extensible, and feature-packed frontend toolkit. Build
-                and customize with Sass, utilize prebuilt grid system and
-                components, and bring projects to life with powerful JavaScript
-                plugins.
+            <div className="col-12 col-lg-6   ">
+              <h2 className="display  mb-3">Art of Design</h2>
+              <p className="">
+                Trio Business Cubers provides personalized and practical
+                solutions to help businesses overcome the challenges they face
+                in launching, managing, and expanding their operations.
+              </p>
+              <p className=" mb-5">
+                Trio Business Cubers provides personalized and practical
+                solutions to help businesses overcome the challenges they face
+                in launching, managing, and expanding their operations.
               </p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link
-                  to="/book"
-                  type="button"
-                  className="btn btn-primary bsb-btn-xl rounded-pill"
-                >
+                <Link to="/book" type="button" className="btn btn-primary ">
                   Book A Call
                 </Link>
               </div>
             </div>
-            <div className="col-12 col-lg-5">
+            <div className="col-12 form-all col-lg-5">
               <div className="container-fluid">
-                <form className="mx-auto mt-5" onSubmit={handleSubmit}>
-                  <h4 className="text-center">Login</h4>
+                <form className="mx-auto form " onSubmit={handleSubmit}>
+                  <h4 className=" ">
+                    👋 Claim Your Free Online Visibility Audit Report! –
+                    (Manually Audit)
+                  </h4>
                   <div className="">
                     <label htmlFor="name" className="form-label">
                       Name
                     </label>
                     <input
                       type="text"
-                      className="form-control"
+                      className="form-control "
                       id="name"
                       placeholder="Enter Your Name"
                       value={name}

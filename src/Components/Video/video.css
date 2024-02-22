@@ -1,7 +1,9 @@
 .work {
   padding-bottom: 40px;
 }
-
+iframe {
+  margin-top: 30px;
+}
 .work .container-fluid {
   margin-left: auto;
   margin-right: auto;
@@ -22,11 +24,11 @@
 .video-right {
   background-color: white;
   border-radius: 10px;
-  width: 75%;
+  /
 }
 .video-right p {
   color: #000;
-  font-size: 18px;
+  font-size: 28px;
 }
 .work .card {
   border: none;
@@ -41,11 +43,13 @@
 }
 .work .badges img {
   max-width: 100%;
-  height: 20px;
+  /* height: 30px; */
+  /* padding-right: 30px; */
 }
 
 .work .badges p {
-  /* margin-top: 10px; */
+  padding-left: 20px;
+  font-size: 30px;
 }
 
 @media (max-width: 992px) {
@@ -54,18 +58,11 @@
     max-width: 100%;
     height: 300px;
   }
-  .video-right p {
-    font-size: 16px;
-  }
+ 
 }
 
 @media (max-width: 768px) {
-  .work img {
-    width: 100%;
-  }
-  .video-right p {
-    font-size: 16px;
-  }
+ 
 
   .work .col-md-6 {
     flex: 0 0 100%;
@@ -74,5 +71,17 @@
     margin-left: 10px;
     font-size: 20px;
     padding-top: 30px;
+  }
+  .badges {
+    width: 600px;
+  }
+  .work .badges p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .example {
+    background-color: lightblue;
   }
 }

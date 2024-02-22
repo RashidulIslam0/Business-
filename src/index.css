@@ -5,5 +5,8 @@
 }
 
 body {
+  background: rgb(255, 255, 255);
+}
+body {
   font-family: "Roboto", "Open Sans", sans-serif;
 }

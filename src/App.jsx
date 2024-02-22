@@ -1,28 +1,20 @@
 import "./App.css";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-import Services from "./Components/Services/Services";
-import Book from "./Pages/Book/Book";
-import Home from "./Pages/Home/Home";
+
+import Dashbord from "./Dashbord/Dashbord";
+import Leayout from "./Leayaut/Leayout";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/book" element={<Book />} />
-          <Route path="/ser" element={<Services />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <Leayout />
 
-      {/* <Header />
-      <Home />
-      <Book />
-      <Footer /> */}
+      <Router>
+        <Routes>
+          <Route path="/dash" element={<Dashbord />} />
+        </Routes>
+      </Router>
     </>
   );
 }
