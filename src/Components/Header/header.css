@@ -18,12 +18,7 @@
 
   border: none;
   border-radius: 50px;
-  background: linear-gradient(
-    90deg,
-    rgb(15, 13, 58) 0%,
-    rgb(107, 39, 196) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #6a64f1;
 }
 
 .Login-button:hover {

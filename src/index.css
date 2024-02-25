@@ -10,3 +10,13 @@ body {
 body {
   font-family: "Roboto", "Open Sans", sans-serif;
 }
+
+/* Example custom styles for toast notification */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast--success {
+  background-color: #5cb85c;
+  color: #fff;
+}
