@@ -50,13 +50,6 @@ function Services() {
         icon: "  fa-searchengin ",
         link: "/saabc",
       },
-      {
-        title: "Make it Simple",
-        description:
-          "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
-        icon: " fa-business-time",
-        link: "/axbc",
-      },
     ],
   };
 
