@@ -16,11 +16,11 @@ function Home() {
         buttonLink="/book"
         buttonText="Book A Call"
       />
+      <Videoall />
+
+      <Count />
 
       <Services />
-
-      <Videoall />
-      <Count />
 
       <div className="">
         <section id="team">
