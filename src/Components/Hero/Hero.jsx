@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./hero.css";
 import { Link } from "react-router-dom";
-function Hero() {
+function Hero(props) {
   const [name, setName] = useState("");
   const [countryCode, setCountryCode] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -16,24 +16,21 @@ function Hero() {
       <section className="hero m-lg-5 ">
         <div className="container overflow-hidden">
           <div className="row  align-items-lg-center justify-content-lg-between">
-            <div className="col-12 col-lg-6   ">
-              <h2 className="display  mb-3">Art of Design</h2>
-              <p className="">
-                Trio Business Cubers provides personalized and practical
-                solutions to help businesses overcome the challenges they face
-                in launching, managing, and expanding their operations.
-              </p>
-              <p className=" mb-5">
-                Trio Business Cubers provides personalized and practical
-                solutions to help businesses overcome the challenges they face
-                in launching, managing, and expanding their operations.
-              </p>
+            <div className="col-12 col-lg-6">
+              <h2 className="display mb-3">{props.title}</h2>
+              <p className="">{props.description}</p>
+              <p className="mb-5">{props.secondaryDescription}</p>
               <div className="d-grid gap-2 d-sm-flex">
-                <Link to="/book" type="button" className="btn btn-primary ">
-                  Book A Call
+                <Link
+                  to={props.buttonLink}
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  {props.buttonText}
                 </Link>
               </div>
             </div>
+
             <div className="col-12 form-all col-lg-5">
               <div className="container-fluid">
                 <form className="mx-auto form " onSubmit={handleSubmit}>

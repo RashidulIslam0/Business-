@@ -2,17 +2,25 @@ import React from "react";
 import Hero from "../../Components/Hero/Hero";
 import Card from "../../Components/Card/Card";
 import Services from "../../Components/Services/Services";
-import VideoSection from "../../Components/Video/Video";
 import Videoall from "../../Components/Video/Videoall";
+import Count from "../../Components/Count/Count";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div>
-      <Hero />
+      <Hero
+        title="Art of Design"
+        description="Trio Business Cubers provides personalized and practical solutions to help businesses overcome the challenges they face in launching, managing, and expanding their operations."
+        secondaryDescription="Trio Business Cubers provides personalized and practical solutions to help businesses overcome the challenges they face in launching, managing, and expanding their operations."
+        buttonLink="/book"
+        buttonText="Book A Call"
+      />
 
       <Services />
 
       <Videoall />
+      <Count />
 
       <div className="">
         <section id="team">

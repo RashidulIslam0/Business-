@@ -12,21 +12,49 @@ function Services() {
         title: "Unique design",
         description:
           "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
-        icon: "fa-desktop",
+        icon: "fa-openid",
+        link: "/abc",
+      },
+      {
+        title: "Unique design",
+        description:
+          "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
+        icon: "fa-openid",
+        link: "/abc",
+      },
+      {
+        title: "Unique design",
+        description:
+          "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
+        icon: "fa-openid",
+        link: "/abc",
+      },
+      {
+        title: "Unique design",
+        description:
+          "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
+        icon: "fa-openid",
+        link: "/abc",
+      },
+      {
+        title: "Unique design",
+        description:
+          "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
+        icon: "fa-openid",
         link: "/abc",
       },
       {
         title: "Different Layout",
         description:
           "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
-        icon: "fa-user",
+        icon: "  fa-searchengin ",
         link: "/saabc",
       },
       {
         title: "Make it Simple",
         description:
           "I  design and develop services for customers of all sizes, specializing in creating stylish, modern websites.",
-        icon: "fa-comment",
+        icon: " fa-business-time",
         link: "/axbc",
       },
     ],
