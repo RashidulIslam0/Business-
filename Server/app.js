@@ -6,6 +6,8 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const bookRoutes = require('./routes/BookRoutes');
+const videoRoutes = require('./routes/VideoRoutes');
+
 
 const app = express();
 const PORT = 3000;
@@ -22,7 +24,7 @@ const connectDB = async () => {
     console.log("MongoDB connected successfully");
   } catch (error) {
     console.error("MongoDB connection error:", error.message);
-    process.exit(1); // Exit with failure
+    process.exit(1); 
   }
 };
 
@@ -30,6 +32,8 @@ const connectDB = async () => {
 
 
 app.use('/books',bookRoutes);
+app.use('/api/v1/video',videoRoutes);
+
 
 
 
